@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    background-color: white;
+    width: 360px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 , 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-img{
+    width: 128px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ccccccc9;
+    outline: 1px solid #ccc;
+}
+.card-name{
+    color: #363636;
+    font-size: 24px;
+    margin: 12px 0px;
+
+}
+.card-social{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    gap: 8px;
+    font-size: 24px;
+}
+.card-social a{
+    display: block;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.car-contact{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.car-contact a{
+    font-size: 16px;
+    color: #363636;
+    text-decoration: none;
+    display: block;
+    margin: 8px 0px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.car-contact a :hover{
+    text-decoration: underline;
+}
